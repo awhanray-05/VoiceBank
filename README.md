@@ -78,5 +78,4 @@ com.skye.voicebank
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/your-username/voicebank.git
-   cd voicebank
+   git clone https://github.com/awhanray-05/VoiceBank.git
