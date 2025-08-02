@@ -63,7 +63,7 @@ com.skye.voicebank
 │   └── NavigationGraph.kt             # Navigation host setup
 └── ui/theme/
     └── VoiceBankTheme.kt              # App theme
-
+```
 
 ---
 
