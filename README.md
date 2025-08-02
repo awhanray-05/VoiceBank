@@ -46,22 +46,23 @@
 
 ## 📂 Project Structure Overview
 
+```bash
 com.skye.voicebank
 │
-├── MainActivity.kt # Entry point of the app
+├── MainActivity.kt                     # Entry point of the app
 ├── viewmodels/
-│ ├── AuthViewModel.kt
-│ ├── AuthViewModelFactory.kt
-│ ├── AuthRepository.kt
-│ └── FirebaseAuthRepository.kt
+│   ├── AuthViewModel.kt
+│   ├── AuthViewModelFactory.kt
+│   ├── AuthRepository.kt
+│   └── FirebaseAuthRepository.kt
 ├── utils/
-│ ├── FRILLModel.kt # Loads the on-device voice model
-│ ├── TextToSpeechHelper.kt # TTS utility
-│ └── VoiceToTextParser.kt # STT utility
+│   ├── FRILLModel.kt                   # Loads the on-device voice model
+│   ├── TextToSpeechHelper.kt          # TTS utility
+│   └── VoiceToTextParser.kt           # STT utility
 ├── screens/
-│ └── NavigationGraph.kt # Navigation host setup
+│   └── NavigationGraph.kt             # Navigation host setup
 └── ui/theme/
-└── VoiceBankTheme.kt # App theme
+    └── VoiceBankTheme.kt              # App theme
 
 
 ---
